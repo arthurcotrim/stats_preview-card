@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+    width: 100%;
+
+    padding: 1rem;
+
+    background: hsl(233, 47%, 7%);
+
+    font-size: 15px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 0 auto;
+
+    color: hsla(0, 0%, 100%, 0.75);
+
+    width: 355px;
+    height: auto;
+
+    background: hsl(244, 38%, 16%);
+
+    border-radius: .5rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-image{
+    max-width: 100%;
+    height: auto;
+
+    background: url(../images/image-header-mobile.jpg) no-repeat;
+    background-size: cover;
+
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.card-image-color{
+    background: rgb(154, 12, 241);
+
+    opacity: .4;
+
+    width: 100%;
+    height: 15rem;
+
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.card-content{
+    padding: 2rem;
+    
+    text-align: center;
+}
+
+.card-content h1{
+    margin-bottom: 1rem;
+
+    line-height: 1.1;
+    font-weight: 700;
+
+    color: hsl(0, 0%, 100%);
+}
+
+.card-content span {
+    color: hsl(277, 64%, 61%);
+}
+
+.card-content p{
+    line-height: 1.6;
+
+    width: 17rem;
+
+    margin: auto;
+
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.data-numbers{
+    margin-top: 2rem;
+}
+
+.data{
+    margin-top: 2rem ;
+}
+
+.data h2{
+    color:hsla(0, 0%, 100%, 0.6);
+    line-height: 1.5;
+}
